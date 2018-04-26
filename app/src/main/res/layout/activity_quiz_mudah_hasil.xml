@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include android:id="@+id/toolbar"
+        layout="@layout/tool_bar" />
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16px"
+        android:layout_marginRight="16px">
+
+        <TextView android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="skor soal 1" />
+        <TextView android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/jwb_mudah1" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="18dp" android:textStyle="bold" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="skor soal 2" />
+        <TextView android:textSize="18dp" android:textStyle="bold" android:gravity="center" android:id="@+id/jwb_mudah2" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="18dp" android:textStyle="bold" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="skor soal 3" />
+        <TextView android:textSize="18dp" android:textStyle="bold" android:gravity="center" android:id="@+id/jwb_mudah3" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="18dp" android:textStyle="bold" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="skor soal 4" />
+        <TextView android:textSize="18dp" android:textStyle="bold" android:gravity="center" android:id="@+id/jwb_mudah4" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="18dp" android:textStyle="bold" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="skor soal 5" />
+        <TextView android:textSize="18dp" android:textStyle="bold" android:gravity="center" android:id="@+id/jwb_mudah5" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="18dp" android:textStyle="bold" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="total skor" />
+        <TextView android:textSize="18dp" android:textStyle="bold" android:gravity="center" android:id="@+id/hasil_skor_mudah" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <Button android:id="@+id/btn_finis_mudah" android:background="@color/PrimaryColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="finis" />
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:src="@drawable/gembira" />
+    </LinearLayout>
+
+</LinearLayout>

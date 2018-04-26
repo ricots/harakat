@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.android4dev.navigationview.quiz_sulit_satu">
+
+    <include
+        layout="@layout/tool_bar"
+        android:id="@+id/toolbar"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <TextView
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="yang bukan harokat bawa, tara dan naza.........?" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px">
+            <CheckBox android:textSize="16dp"
+                android:id="@+id/cek_sulit_empat_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A. " />
+            <ImageView android:layout_width="200px"
+                android:layout_height="200px"
+                android:src="@drawable/bada" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox android:textSize="16dp"
+                android:id="@+id/cek_sulit_empat_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b. " />
+            <ImageView android:layout_width="200px"
+                android:layout_height="200px"
+                android:src="@drawable/naza" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:textSize="16dp"
+                android:id="@+id/cek_sulit_empat_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C. " />
+            <ImageView android:layout_width="200px"
+                android:layout_height="200px"
+                android:src="@drawable/tara" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox android:textSize="16dp"
+                android:id="@+id/cek_sulit_empat_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D." />
+            <ImageView android:layout_width="200px"
+                android:layout_height="200px"
+                android:src="@drawable/bawa" />
+        </LinearLayout>
+        <Button android:id="@+id/btn_next_empat_empat"
+            android:background="@color/PrimaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:text="next" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

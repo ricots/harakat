@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:icon="@drawable/mix"
+            android:id="@+id/mix"
+            android:checked="false"
+            android:title="suara ke gambar" />
+        <item android:icon="@drawable/speker"
+            android:id="@+id/speker"
+            android:checked="false"
+            android:title="gambar ke suara" />
+        <item android:icon="@drawable/quiz"
+            android:id="@+id/quiz"
+            android:checked="false"
+            android:title="quiz" />
+
+    </group>
+</menu>

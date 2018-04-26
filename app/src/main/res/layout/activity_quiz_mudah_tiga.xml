@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/toolbar" layout="@layout/tool_bar" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/dzal" />
+            <TextView android:textSize="16dp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="gambar di atas adalah harokat.........?" />
+            <CheckBox android:textSize="16dp" android:id="@+id/cek_mudah_tiga_a" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30px" android:text="A. bak" />
+            <CheckBox android:textSize="16dp" android:id="@+id/cek_mudah_tiga_b" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="b. dzal" />
+            <CheckBox android:textSize="16dp" android:id="@+id/cek_mudah_tiga_c" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="C. sin" />
+            <CheckBox android:textSize="16dp" android:id="@+id/cek_mudah_tiga_d" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="D. kaf" />
+        </LinearLayout>
+        <Button android:id="@+id/btn_next_mudah_tiga"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/PrimaryColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="next" />
+    </LinearLayout>
+</ScrollView>

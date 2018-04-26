@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.android4dev.navigationview.quiz_mudah_satu">
+
+    <include
+        layout="@layout/tool_bar"
+        android:id="@+id/toolbar"/>
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+        <TextView android:textSize="16dp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="berikut adalah harokat waw.........?" />
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px">
+            <CheckBox android:textSize="16dp"
+                android:id="@+id/cek_mudah_dua_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A. " />
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ba" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox android:textSize="16dp"
+                android:id="@+id/cek_mudah_dua_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b. " />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/dzal" />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox android:textSize="16dp"
+                android:id="@+id/cek_mudah_dua_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C. " />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/wawu" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox android:textSize="16dp"
+                android:id="@+id/cek_mudah_dua_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D." />
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/jim" />
+        </LinearLayout>
+        <Button android:id="@+id/btn_next_mudah_dua"
+            android:background="@color/PrimaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:text="next" />
+    </LinearLayout>
+</LinearLayout>
